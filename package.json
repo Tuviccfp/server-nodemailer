@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Tuviccfp <victorcordeirofp@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node-dev server.ts"
+  },
   "dependencies": {
     "@types/cors": "^2.8.13",
     "@types/dotenv": "^8.2.0",
