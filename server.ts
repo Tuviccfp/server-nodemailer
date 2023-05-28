@@ -38,5 +38,5 @@ app.post('/api/contact', async (req: Request, res: Response) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log(`Server open in process.env.PORT, ${process.env.PORT}`)
+    console.log(`Server open in ${process.env.PORT}`)
 })
